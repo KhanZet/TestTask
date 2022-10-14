@@ -45,6 +45,7 @@ countBtn.addEventListener('click', (e) => {
 	}else if(wayOption == "AB" || "BA"){
 		document.querySelector('#time-text').textContent = "50 минут";
 	}
+	
 
 })
 document.querySelector("#route").addEventListener("change", (e) => {
